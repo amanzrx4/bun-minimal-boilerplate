@@ -1,0 +1,17 @@
+{
+  "name": "linkedin-direct-message",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
