@@ -1,5 +1,5 @@
 {
-  "name": "linkedin-direct-message",
+  "name": "twitter-direct-message",
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
@@ -12,6 +12,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "valibot": "^0.31.0-rc.6"
   }
 }

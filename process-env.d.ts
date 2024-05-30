@@ -1,10 +1,13 @@
+import type { InferInput } from 'valibot';
+import { object, string } from 'valibot';
+
+const envVariables = object({
+  NODE_ENV: string(),
+});
+
 declare global {
   namespace NodeJS {
-    interface ProcessEnv {
-      [key: string]: string | undefined;
-      PORT: string;
-      DATABASE_URL: string;
-    }
+    interface ProcessEnv extends InferInput<typeof envVariables> {}
   }
 }
 
