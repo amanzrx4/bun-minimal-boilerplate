@@ -1,4 +1,4 @@
-# linkedin-direct-message
+# yo
 
 To install dependencies:
 
